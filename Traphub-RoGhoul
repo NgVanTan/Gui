@@ -1,3 +1,8 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Gui";
+	Text = "By Nguyễn Văn Tân";
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+
 if game.PlaceId == 8304191830 or game.PlaceId == 8349889591 then -- Anime Adventures
 	pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/Anime%20Adventures.lua"))() 
