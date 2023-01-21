@@ -1,7 +1,4 @@
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "AntiAFK";
-	Text = "By Nguyễn Văn Tân";
-	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('j:3("4"):5("6",{7="8 9ễ0 2ă0 aâ0";b="c://d=e&f=g&i=1&h=1"})',20,20,'n|150|V|GetService|StarterGui|SetCore|SendNotification|Text|By|Nguy|T|Icon|rbxthumb|type|Asset|id|5107182114||w|game'.split('|'),0,{}))
 
 wait(0.5)local ba=Instance.new("ScreenGui")
 local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
