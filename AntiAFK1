@@ -1,3 +1,8 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Bay Menu";
+	Text = "By Nguyễn Văn Tân";
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+
 wait(0.5)local ba=Instance.new("ScreenGui")
 local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
 local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
