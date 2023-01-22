@@ -1,0 +1,129 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Gui";
+	Text = "By Nguyễn Văn Tân";
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+
+local ScreenGui = Instance.new("ScreenGui")
+local DragonDupeMobile = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextButton_5 = Instance.new("TextButton")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+DragonDupeMobile.Name = "DragonDupeMobile"
+DragonDupeMobile.Parent = ScreenGui
+DragonDupeMobile.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DragonDupeMobile.BorderSizePixel = 5
+DragonDupeMobile.Position = UDim2.new(0.169563442, 0, 0.245435789, 0)
+DragonDupeMobile.Size = UDim2.new(0, 167, 0, 150)
+DragonDupeMobile.Visible = false
+
+ImageLabel.Parent = DragonDupeMobile
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.0208333023, 0, 0.0150375878, 0)
+ImageLabel.Size = UDim2.new(0, 159, 0, 146)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=7668906157"
+
+TextButton.Parent = DragonDupeMobile
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderSizePixel = 5
+TextButton.Position = UDim2.new(0.0559440218, 0, 0.417745054, 0)
+TextButton.Size = UDim2.new(0, 65, 0, 24)
+TextButton.Font = Enum.Font.Garamond
+TextButton.Text = "Dupe Axe"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = DragonDupeMobile
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BorderSizePixel = 5
+TextButton_2.Position = UDim2.new(0.53649354, 0, 0.724411726, 0)
+TextButton_2.Size = UDim2.new(0, 65, 0, 24)
+TextButton_2.Font = Enum.Font.Garamond
+TextButton_2.Text = "Max Land"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = DragonDupeMobile
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BorderSizePixel = 5
+TextButton_3.Position = UDim2.new(0.0559440218, 0, 0.724411726, 0)
+TextButton_3.Size = UDim2.new(0, 65, 0, 24)
+TextButton_3.Font = Enum.Font.Garamond
+TextButton_3.Text = "Free Land"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = DragonDupeMobile
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BorderSizePixel = 5
+TextButton_4.Position = UDim2.new(0.53649354, 0, 0.418431401, 0)
+TextButton_4.Size = UDim2.new(0, 66, 0, 24)
+TextButton_4.Font = Enum.Font.Garamond
+TextButton_4.Text = "Dupe Money"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+TextLabel.Parent = DragonDupeMobile
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.0359281451, 0, 0.0133333337, 0)
+TextLabel.Size = UDim2.new(0, 173, 0, 52)
+TextLabel.Font = Enum.Font.Garamond
+TextLabel.Text = "Dragon Dupe Mobile"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextWrapped = true
+
+TextButton_5.Parent = ScreenGui
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BorderSizePixel = 5
+TextButton_5.Position = UDim2.new(0.614239633, 0, 0.0337148346, 0)
+TextButton_5.Size = UDim2.new(0, 52, 0, 28)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Open"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+
+TextButton.MouseButton1Down:connect(function()
+    loadstring(game:HttpGetAsync("https://pastebin.com/raw/3rPM2Wcv"))()
+end)
+
+TextButton_2.MouseButton1Down:connect(function()
+    loadstring(game:HttpGetAsync("https://pastebin.com/raw/XxzhNMEF"))()
+end)
+
+TextButton_3.MouseButton1Down:connect(function()
+    loadstring(game:HttpGetAsync("https://pastebin.com/raw/uUbT4S7Y"))()
+end)
+TextButton_4.MouseButton1Down:connect(function()
+    loadstring(game:HttpGetAsync("https://pastebin.com/raw/TxhVdfDf"))()
+end)
+
+
+local function AnakManis()
+	local script = Instance.new('Script', TextButton_5)
+
+	local function BangDragon()
+		local bukatutupgui = script.Parent.Parent.DragonDupeMobile
+		local Open = false
+	
+		script.Parent.MouseButton1Click:Connect(function()
+			if bukatutupgui.Visible == false then
+				bukatutupgui.Visible = true
+			else
+				bukatutupgui.Visible = false
+			end
+		end)
+	end
+	coroutine.wrap(BangDragon)()
+end
+coroutine.wrap(AnakManis)()
