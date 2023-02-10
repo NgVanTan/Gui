@@ -2,9 +2,6 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Gui";
 	Text = "By Nguyễn Văn Tân";
 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-	-- Creator: illremember#3799
-
--- Credits to infinite yield, harkinian, dex creators
 
 prefix = ";"
 wait(0.3)
