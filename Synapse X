@@ -265,7 +265,7 @@ execute.MouseButton1Click:Connect(function()
         loadstring(Source.Text)()
     end
     if injected == false then
-        title.Text = "Synapse X Remake  - RBX (not injected! press attach)"
+        title.Text = "Synapse X (not injected! press attach)"
     end
 end)
 
@@ -313,22 +313,22 @@ Attach.TextSize = 14.000
 Attach.MouseButton1Click:Connect(function()
     print("hi")
     if injected == true then
-        title.Text = "Synapse X Remake - RBX (already injected!)"
+        title.Text = "Synapse (already injected!)"
         wait(1)
-        title.Text = "Synapse Remake X - RBX"
+        title.Text = "Synapse X"
     end
     if injected == false then
-        title.Text = "Synapse X Remake - RBX (checking...)"
+        title.Text = "Synapse X (checking...)"
         wait(0.1)
-        title.Text = "Synapse X Remake - RBX (injecting...)"
+        title.Text = "Synapse X (injecting...)"
         wait(1.5)
-        title.Text = "Synapse X Remake - RBX (checking whitelist...)"
+        title.Text = "Synapse X (checking whitelist...)"
         wait(0.8)
-        title.Text = "Synapse X Remake - RBX (scanning...)"
+        title.Text = "Synapse X (scanning...)"
         wait(0.3)
-        title.Text = "Synapse X Remake - RBX (ready!)"
+        title.Text = "Synapse X (ready!)"
         wait(0.5)
-        title.Text = "Synapse X Remake - RBX"
+        title.Text = "Synapse X"
         injected = true
     end
 end)
